@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Akash ❤️ Ankitha</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- INTRO -->
+
+<div id="intro">
+
+<h1>Our Love Universe</h1>
+
+<button onclick="openLogin()">Enter</button>
+
+</div>
+
+
+<!-- LOGIN -->
+
+<div id="login">
+
+<h2>Private Universe</h2>
+
+<input type="password" id="password" placeholder="Enter password">
+
+<br>
+
+<button onclick="checkPassword()">Enter</button>
+
+<p id="error"></p>
+
+</div>
+
+
+<!-- POPUP -->
+
+<div id="popup">
+
+<div class="popupBox">
+
+Hey Pondatti ❤️
+
+</div>
+
+</div>
+
+
+<!-- CINEMA -->
+
+<div id="cinema">
+
+<p id="cinemaText"></p>
+
+</div>
+
+
+<!-- MAIN -->
+
+<div id="main">
+
+<h1>Akash ❤️ Ankitha</h1>
+
+
+<!-- COUNTDOWN -->
+
+<h2>Time Since We Met</h2>
+
+<div id="timer">
+
+<div class="box"><span id="days">0</span><p>Days</p></div>
+<div class="box"><span id="hours">0</span><p>Hours</p></div>
+<div class="box"><span id="minutes">0</span><p>Minutes</p></div>
+<div class="box"><span id="seconds">0</span><p>Seconds</p></div>
+
+</div>
+
+
+<!-- MEMORY GALLERY -->
+
+<h2>Memory Gallery</h2>
+
+<input type="file" id="photoInput">
+
+<input type="text" id="noteInput" placeholder="Memory note">
+
+<button onclick="addPhoto()">Add Memory</button>
+
+<div id="gallery"></div>
+
+
+<!-- FLIPBOOK -->
+
+<h2>Flipbook Memories</h2>
+
+<div class="flipbook">
+
+<div class="page active">The day our story started ❤️</div>
+<div class="page">First long conversation</div>
+<div class="page">First date at Smoky Docky</div>
+<div class="page">This is only the beginning</div>
+
+</div>
+
+<button onclick="prevPage()">Prev</button>
+<button onclick="nextPage()">Next</button>
+
+
+<!-- SECRET -->
+
+<h2>Secret Message</h2>
+
+<input type="text" id="secretInput">
+
+<button onclick="unlockSecret()">Unlock</button>
+
+<p id="secretText"></p>
+
+
+<!-- HEART RATE -->
+
+<h2>Heart Rate Love Meter</h2>
+
+<button onclick="heartRate()">Check</button>
+
+<p id="heartResult"></p>
+
+
+<!-- LOVE METER -->
+
+<h2>Rate Our Love</h2>
+
+<input type="range" min="1" max="100" id="loveRange" oninput="updateLove()">
+
+<p id="loveText"></p>
+
+
+<!-- FINAL -->
+
+<button onclick="showFinal()">Lets See Final</button>
+
+<p id="finalText"></p>
+
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
